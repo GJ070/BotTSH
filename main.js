@@ -6,7 +6,7 @@ const SQLite = require("better-sqlite3");
 const db = new SQLite('./teams.sqlite');
 
 
-
+const prefix = "!"
 
 const d = new Date();
 
@@ -57,7 +57,7 @@ client.once('ready' , () => {
 
 
 client.on('message' , message =>{
-  if(!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if(!message.content.startsWith(prefix) || message.author.bot) return;
 
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
