@@ -1,0 +1,76 @@
+Thanks For applying! We will approve your form as soon as possible. While you wait you could read the Terms of Service of our house!
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Alinea 1: Server Rules
+Alinea 2: Scrim Rules
+Alines 3: Striking system
+Alinea 4: Explaination of Tools
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Alinea 1: Server Rules
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+1.1: Please be respectful to each other. This means we'll not tolerate any toxicity, harassment, discrimination, anti-LGBTQ+ or any other hatespeech. 
+1.2: Malicious, spam or hostile links are strongly prohibited.
+1.3: If you have any issues, problems or bugs, please contact any of our staff by creating a ticket.
+1.4: Use the commands in the proper channels. Some are bonded/usable in 1 channel only.
+1.5: Don't abuse our bot by spamming commands, using wrong commands on purpose and using it against other people.
+1.6: We won't tolerate spamming anyone in the Direct Messages option.
+1.7: Raiding our server will resolve into a permanent ban of the server and prohibited to join our scrim schema.
+1.8: Re-creating and using the copy of our bot from you to spread phishing links or other scamming activities
+will resolve into a permanent ban of the server and will be prohibited to join our scrim schema.
+1.9: Sharing private information (IPV4/IPV6 Public IP Address, Credit-card information) will not be tolerated within Direct Messages 
+or in the server. This will result into a permanent mute and will be declined to join/deleted from our scrim schema.
+1.10: Any NSFW or other sexual/pornographic content will not be accepted within our server or Direct Messages. A person is allowed to block
+the author and has rights to create a ticket to use it as proof. The manager/player will be deleted from the server with a permanent ban.
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Alinea 2: Scrim Rules
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+2.1: A team must consist of minimum 3 and maximum 5 players to properly Scrim.
+2.2: A player has to stay professional and cannot behave with any hate or bullying towards other organizations or players 
+from other organizations, whether it is ingame or somewhere else.
+2.3: Both organisers have to be concrete about the times their teams are available.
+2.4: You can use our booking system to plan your scrims, but it's not strict to do so. 
+2.5: Players CANNOT switch in the matches, only between the matches.
+2.6
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Alinea 3: Striking system
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Each severe foul from Alinea 1 and 2.5 (apart from 1.3, 1.4, 1.7, 1.8, 1.9 and 1.10) is counted as 1 strike
+
+Abuse of Server:
+1 Strike:  24 hours mute
+2 Strikes: 7 days mute 
+3 Strikes: 30 days mute
+4 Strikes: Permanent Team disband and player ban(s)
+5 Strikes: Permanent Organisation ban and unable to rejoin the scrim schema
+
+Abuse of Bot:
+1 Strike: 1 hour mute
+2 Strikes: 12 hours mute
+3 Strikes: 24 hours mute
+4 Strikes: 7 days mute
+5 Strikes: Permanent mute
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Alinea 4: Explaination of Tools
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+!ticket            | Creates a ticket for support, problems, bugs or issues.
+!apply           | A system to apply your Organisation to our Scrim Schema.
+!book            | Books a place for a scrim participation with another team.
+!cancel     	   | Cancels a book for a planned scrim participation with another team.
+!scrims          | Shows all looking-for-scrim requests.
+!lfs        	   | Let's you create a looking-for-scrim request.
+!suggestion | Picks up your suggestion and sends it to the owners and staff.
+!feedback     | Picks up your feedback and sends it to the owners and staff.
+
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Go follow our Social Media for updates and announcements:
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Twitter: https://www.twitter.com/The_Scrim_House
+Discord: Go follow our #announcements page in our server
