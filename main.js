@@ -39,9 +39,9 @@ client.once('ready' , () => {
 
   client.ws.on('INTERACTION_CREATE', async interaction => {
 
-    const command = interaction.data.name.toLowerCase();
+    const slashCommand = interaction.data.name.toLowerCase();
 
-    if(command == "test"){
+    if(slashCommand == "test"){
       client.api.interactions(interaction.id, interaction.token).callback.post({
         data:{
           type: 4,
