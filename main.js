@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client(); 
 const config = require("./config.json");
 require('discord-buttons')(client);
+const canvacord = require('canvacord')
 const SQLite = require("better-sqlite3");
 const db = new SQLite('./teams.sqlite');
 
@@ -41,12 +42,12 @@ client.once('ready' , () => {
 
     const slashCommand = interaction.data.name.toLowerCase();
 
-    if(slashCommand == "test"){
+    if(slashCommand == "roster"){
       client.api.interactions(interaction.id, interaction.token).callback.post({
         data:{
           type: 4,
           data:{
-            content: "This is a test!"
+            content: "Current roster:\n" + "🏳️ // -\n" + "🏳️ // -\n" + "🏳️ // -"
           }
         }
       })
@@ -67,7 +68,22 @@ client.on('message' , message =>{
 });
 
 client.on('guildMemberAdd', member => {
-  member.guild.channels.get('811361137802084353').send('@' + member.user.username + ' has joined the server! :smile:' + {files: ['./Welcome.jpg  ']});
+  if(member.guild.id !== "789990406803816459") return;
+
+  const welcomecard = new canvacord.Welcomer()
+  .setUsername(member.user.username)
+  .setDiscriminator(member.user.discriminator)
+  .setAvatar(member.user.displayAvatarURL({format: "png"}))
+  .setColor("title", "#00ffff")
+  .setColor("username-box", "#00ffff")
+  .setColor("discriminator-box", "#00ffff")
+  .setColor("message-box", "00ffff")
+  .setColor("border", "#ffffff")
+  .setColor("avatar", "#ffffff")
+  .setBackground("https://media.discordapp.net/attachments/793621864118222879/875492540198027304/background_OE.png?width=1440&height=360")
+
+  let attachment = new Discord.MessageAttachment(await welcomecard.build(), "welcome.png")
+  member.guild.channels.cache.get("826574891201462291").send(member.user.toString(), attachment)
 });
 
 client.on('guildMemberRemove', member => {
